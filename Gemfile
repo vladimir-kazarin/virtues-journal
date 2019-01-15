@@ -56,6 +56,9 @@ group :test do
   gem 'selenium-webdriver'
   # Easy installation and use of chromedriver to run system tests with Chrome
   gem 'chromedriver-helper'
+  gem 'rails-controller-testing', '~> 1.0', '>= 1.0.4'
+  gem 'minitest', '~> 5.11', '>= 5.11.3'
+  gem 'minitest-reporters'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
