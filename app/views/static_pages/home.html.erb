@@ -1,7 +1,9 @@
+<% if logged_in? %>
 <div class="center jumbotron">
-  <h1>Virtues Journal</h1>
-
-  <h2>by Benjamin Franklin</h2>
-
+  <blockquote class="blockquote">
+    <p class="mb-0">I propos’d to myself, for the sake of clearness, to use rather more names, with fewer ideas annex’d to each, than a few names with more ideas; and I included under thirteen names of virtues all that at that time occurr’d to me as necessary or desirable, and annexed to each a short precept, which fully express’d the extent I gave to its meaning.</p>
+    <footer class="blockquote-footer">Benjamin Franklin in <cite title="Source Title">The Autobiography of Benjamin Franklin</cite></footer>
+  </blockquote>
   <%= link_to "Sign up now!", signup_path, class: "btn btn-lg btn-primary" %>
 </div>
+<% end %>
